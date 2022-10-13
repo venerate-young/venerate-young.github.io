@@ -1,0 +1,79 @@
+### gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled class file
+*.class
+
+### STS ###
+.settings/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+bin/
+
+# Log file
+*/log/
+*.log
+*.log.gz
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+rebel.xml
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+### vscode ###
+.vscode
+
+### maven ###
+target/
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.nar
+*.rar
+
+### temp ignore ###
+*.cache
+*.diff
+*.patch
+*.tmp
+/tmp/
+*.java~
+*.properties~
+*.xml~
+
+# virtual machine crash logs
+hs_err_pid*
+
+### system ignore ###
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+.gitee
